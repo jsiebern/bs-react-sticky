@@ -16,7 +16,7 @@ to add the library to your project dependencies. And add `@jsiebern/bs-react-sti
 
 [See this link for the full example.](https://github.com/jsiebern/bs-react-sticky/blob/master/examples/Example.re)
 
-```reasonml
+```reason
 let component = ReasonReact.statelessComponent("App");
 
 let make = _children => {
