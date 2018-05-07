@@ -4,7 +4,7 @@
   "keywords": [
     "bucklescript",
     "reason",
-    "material-ui"
+    "react-sticky"
   ],
   "description": "Reason bindings for the react-sticky package",
   "main": "src/ReactSticky.re",
