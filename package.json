@@ -1,0 +1,28 @@
+{
+  "name": "@jsiebern/bs-react-sticky",
+  "version": "1.0.0",
+  "keywords": [
+    "bucklescript",
+    "reason",
+    "material-ui"
+  ],
+  "description": "Reason bindings for the react-sticky package",
+  "main": "src/ReactSticky.re",
+  "homepage": "https://github.com/jsiebern/bs-react-sticky",
+  "repository": "https://github.com/jsiebern/bs-react-sticky.git",
+  "bugs": "https://github.com/jsiebern/bs-react-sticky/issues",
+  "author": "Jonathan Siebern <jsiebern88@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "react-sticky": "^6.0.2",
+    "reason-react": "^0.4.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.0.0",
+    "reason-react": "^0.4.1"
+  },
+  "scripts": {
+    "build": "bsb -make-world"
+  }
+}
